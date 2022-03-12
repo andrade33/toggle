@@ -23,6 +23,7 @@ class Ui_MainWindow(object):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
         MainWindow.resize(803, 600)
+        MainWindow.setIconSize(QSize(32, 32))
         self.centralwidget = QWidget(MainWindow)
         self.centralwidget.setObjectName(u"centralwidget")
         self.horizontalLayout = QHBoxLayout(self.centralwidget)

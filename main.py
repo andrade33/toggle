@@ -11,7 +11,6 @@ class RegApp(QMainWindow, Ui_MainWindow):
 
         self.toggleBtn.clicked.connect(lambda: self.openLeftTab_menu())
 
-
     def openLeftTab_menu(self):
         
         width = self.left.width()
