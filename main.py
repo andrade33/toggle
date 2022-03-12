@@ -16,7 +16,7 @@ class RegApp(QMainWindow, Ui_MainWindow):
         
         width = self.left.width()
         if width == 0:
-            newWid = 200;
+            newWid = 150;
         else:
             newWid = 0
 
@@ -24,7 +24,7 @@ class RegApp(QMainWindow, Ui_MainWindow):
         self.animation.setDuration(500)
         self.animation.setStartValue(width)
         self.animation.setEndValue(newWid)
-        self.animation.setEasingCurve(QEasingCurve.InOutQuart)
+        self.animation.setEasingCurve(QEasingCurve.InOutQuad)
         self.animation.start() 
 
 if __name__ == "__main__":
