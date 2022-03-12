@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'QT_06.ui'
+## Form generated from reading UI file 'tela.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.2.2
 ##
